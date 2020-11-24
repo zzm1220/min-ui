@@ -1,0 +1,10 @@
+.min-header {
+    position:fixed;
+    top: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 640px;
+    height: 2.3rem;
+    z-index: 200;
+    border-bottom: 1px solid #dddddd;
+}

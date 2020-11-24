@@ -1,0 +1,13 @@
+.min-content {
+    position: relative;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.min-header~.min-content {
+    padding-top: 2.3rem;
+}
+
+.min-navbar~.min-content {
+    padding-bottom: 2.5rem;
+}

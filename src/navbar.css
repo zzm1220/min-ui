@@ -1,0 +1,10 @@
+.min-navbar {
+    position: fixed;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 640px;
+    height: 2.5rem;
+    border-top: 1px solid #dddddd;
+    z-index: 200;
+}

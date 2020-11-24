@@ -4,3 +4,6 @@
 @import "./common.css";
 /* 字体文件 */
 @import "./icon.css";
+@import "./header.css";
+@import "./content.css";
+@import "./navbar.css";

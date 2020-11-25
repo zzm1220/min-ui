@@ -11,3 +11,29 @@
 .min-navbar~.min-content {
     padding-bottom: 2.5rem;
 }
+
+.min-content>.min-panel-title {
+    height: 1.8rem;
+    line-height: 1.8rem;
+    padding-left: 1rem;
+    color: #aaaaaa;
+    background-color: #ffffff;
+    border-top: 1px solid #eeeeee;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.min-content>.min-panel-body {
+    position: relative;
+    margin-bottom: .6rem;
+    padding: .6rem 1rem;
+    background: #fff;
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+/* 可手动设置内容区是否有内边距 */
+.min-content .min-panel-body.no-padding {
+    padding: 0;
+}

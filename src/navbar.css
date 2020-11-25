@@ -1,4 +1,5 @@
 .min-navbar {
+    display: flex;
     position: fixed;
     bottom: 0;
     box-sizing: border-box;
@@ -6,5 +7,25 @@
     max-width: 640px;
     height: 2.5rem;
     border-top: 1px solid #dddddd;
+    background: #f8f8f8;
+    text-align: center;
     z-index: 200;
+}
+
+.min-navbar>.navbar-item {
+    flex: 1;
+    color: #808080;
+}
+
+.min-navbar>.navbar-item.active {
+    color: #09BB07;
+}
+
+.min-navbar>.navbar-item>.icon{
+    padding: .3rem 0 .1rem;
+    font-size: 1.1rem;
+}
+.min-navbar>.navbar-item>.name{
+    display: block;
+    font-size:.5rem;
 }

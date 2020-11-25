@@ -1,0 +1,27 @@
+.min-form-item{
+    display: flex;
+    position: relative;
+    padding-left: 1rem;
+    border-bottom: 1px solid #eeeeee;
+}
+.min-form-item:last-child{
+    border-bottom: none;
+}
+.min-form-item>.min-form-label{
+    display: block;
+     width: 3.5rem;
+    font-size: .8rem;
+    color: #666;
+    height: 2rem;
+    line-height: 2rem;
+}
+.min-form-item>.min-form-body{
+    flex:1;
+}
+.min-form-item>.min-form-body>.min-input{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .8rem;
+    border:none;
+}

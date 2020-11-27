@@ -1,0 +1,61 @@
+/*
+ * @Author: zhimin
+ * @Date: 2020-11-26 10:48:48
+ * @LastEditors: zhimin
+ * @LastEditTime: 2020-11-26 16:05:33
+ * @FilePath: \min-ui\src\button.css
+ */
+/* 标准按钮 */
+.min-btn {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 10rem;
+    margin: 0 auto;
+    padding: .5rem 0;
+    font-size: .7rem;
+    text-align: center;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    user-select: none;
+}
+
+/* 主操作按钮 */
+.min-btn.min-btn-primary {
+    background-color: #1AAD19;
+    color: #ffffff;
+}
+
+/* 警示按钮 */
+.min-btn.min-btn-warning {
+    background-color: #E64340;
+    color: #fff;
+}
+
+/* 不可用按钮 */
+.min-btn.min-btn-disabled {
+    background-color: #F7F7F7;
+    color: #999;
+    opacity: .6;
+}
+
+/* 大按钮 */
+.min-btn.min-btn-large {
+    width: 100%;
+    font-size: .9rem;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+/* 小按钮 */
+.min-btn.min-btn-small {
+    display: inline-block;
+    width: 3rem;
+    padding: .2rem 0;
+    font-size: .7rem;
+}

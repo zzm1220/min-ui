@@ -1,0 +1,77 @@
+/*
+ * @Author: zhimin
+ * @Date: 2020-11-27 13:49:33
+ * @LastEditors: zhimin
+ * @LastEditTime: 2020-11-27 15:23:47
+ * @FilePath: \min-ui\src\menu.css
+ */
+.min-menu>.min-menu-item {
+    display: flex;
+    height: 2.3rem;
+    padding: 0 1rem;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+    font-size: .8rem;
+}
+
+.min-menu>.min-menu-item>.min-menu-name {
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333333;
+}
+
+.min-menu>.min-menu-item>.min-menu-value {
+    max-width: 5rem;
+    height: 1rem;
+    line-height: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #999;
+}
+
+/* 下级操作引导图标 */
+.min-menu>.min-menu-item>.min-menu-icon {
+    margin-left: .3rem;
+    color: #999;
+}
+
+.min-menu>.min-menu-item>.min-switch {
+    position: relative;
+    box-sizing: content-box;
+    width: 2.6rem;
+    height: 1.4rem;
+    border: 1px solid #ccc;
+    border-radius: .75rem;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* 去掉webkit内核里默认的样式 */
+    -webkit-appearance: none;
+    /* 去掉webkit内核里默认的点击效果 */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transition: background-color .3s, border .3s;
+}
+
+.min-menu>.min-menu-item>.min-switch:checked {
+    border-color: #07C160;
+    background-color: #07C160;
+}
+
+.min-menu>.min-menu-item>.min-switch::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: .7rem;
+    background-color: #fff;
+    box-shadow: 0 0 2px #999;
+    transition: left .3s;
+}
+
+.min-menu>.min-menu-item>.min-switch:checked::after {
+    left: 1.2rem;
+}

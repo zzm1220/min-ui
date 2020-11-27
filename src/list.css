@@ -1,0 +1,52 @@
+/*
+ * @Author: zhimin
+ * @Date: 2020-11-27 10:08:08
+ * @LastEditors: zhimin
+ * @LastEditTime: 2020-11-27 10:48:04
+ * @FilePath: \min-ui\src\list.css
+ */
+/* 简单列表 */
+.min-list>.min-list-item {
+    display: flex;
+    position: relative;
+    padding: .5rem 1rem;
+    font-size: .8rem;
+    background-color: #ffffff;
+    color: #333333;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.min-list .item-img-wrap {
+    flex: 0 0 5rem;
+    height: 5rem;
+    margin-right: .5rem;
+    border-radius: .2rem;
+    overflow: hidden;
+}
+
+.min-list .item-content-wrap {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.min-list .item-content-wrap>.item-title {
+    height: 2rem;
+    line-height: 1rem;
+    font-size: .8rem;
+    font-weight: normal;
+    overflow: hidden;
+}
+
+.min-list .item-content-wrap>.item-price {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #e0652f;
+}
+
+.min-list .item-content-wrap>.item-desc {
+    color: #999;
+    font-size: .6rem;
+}

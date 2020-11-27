@@ -1,0 +1,38 @@
+.min-grid {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #dddddd;
+}
+
+.min-grid>.min-grid-item {
+    position: relative;
+    flex: 1 1 33%;
+    box-sizing: border-box;
+    padding: 1.2rem 0;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+.min-grid .min-grid-item:nth-child(3n) {
+    border-right: none;
+}
+
+.min-grid.no-border {
+    border: none;
+}
+
+.min-grid.no-border>.min-grid-item {
+    border: none;
+}
+
+.min-grid.min-grid-2 .min-grid-item {
+    border-right: 1px solid #ddd;
+    flex-basis: 50%;
+    padding: 1.8rem 0;
+}
+
+.min-grid.min-grid-2 .min-grid-item:nth-child(2n) {
+    border-right: none;
+}

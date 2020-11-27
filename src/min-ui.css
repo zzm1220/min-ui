@@ -1,3 +1,10 @@
+/*
+ * @Author: zhimin
+ * @Date: 2020-11-25 10:26:54
+ * @LastEditors: zhimin
+ * @LastEditTime: 2020-11-27 13:49:47
+ * @FilePath: \min-ui\src\min-ui.css
+ */
 /* css reset */
 @import "./reset.css";
 /* 公共样式 */
@@ -10,3 +17,6 @@
 @import "./input.css";
 @import "./button.css";
 @import "./search.css";
+@import "./list.css";
+@import "./grid.css";
+@import "./menu.css";

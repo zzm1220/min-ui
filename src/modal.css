@@ -1,0 +1,13 @@
+.min-modal {
+    display: none;
+}
+
+.min-modal.show {
+    display: block;
+}
+
+.min-modal .min-modal-wrap {
+    width: 75%;
+    position: absolute;
+
+}

@@ -1,0 +1,56 @@
+<!--
+ * @Author: zhimin
+ * @Date: 2020-11-30 16:23:17
+ * @LastEditors: zhimin
+ * @LastEditTime: 2020-11-30 16:59:51
+ * @FilePath: \min-ui\demo\action-sheet.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/min-ui.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="min-content">
+        <h1 class="min-panel-title">
+            actionsheet弹出式菜单
+        </h1>
+        <div class="min-panel-body">
+            <a class="min-btn" id="js-show">显示弹出菜单</a>
+        </div>
+    </div>
+    <div class="min-action-sheet">
+        <div class="min-mask"></div>
+        <div class="min-action-sheet-wrap">
+            <div class="min-action-sheet-header">
+                <h1 class="min-action-sheet-title">你需要什么操作?</h1>
+            </div>
+            <div class="min-action-sheet-body">
+                <a class="min-action-sheet-item">关注</a>
+                <a class="min-action-sheet-item">点赞</a>
+                <a class="min-action-sheet-item">转发</a>
+            </div>
+            <div class="min-action-sheet-footer">
+                <a class="min-action-sheet-item" id="js-close">取消</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onload = () => {
+            document.querySelector("#js-show").onclick = e => {
+                console.log("js-show")
+                document.querySelector(".min-action-sheet").classList.add("show");
+            }
+            document.querySelector("#js-close").onclick = e => {
+                document.querySelector(".min-action-sheet").classList.remove("show");
+            }
+        }
+    </script>
+</body>
+
+</html>

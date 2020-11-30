@@ -1,0 +1,39 @@
+/*
+ * @Author: zhimin
+ * @Date: 2020-11-30 14:48:03
+ * @LastEditors: zhimin
+ * @LastEditTime: 2020-11-30 15:16:14
+ * @FilePath: \min-ui\src\toast.css
+ */
+.min-toast {
+    width: 7rem;
+    position: fixed;
+    top: 45%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-40%);
+    opacity: 0;
+    color: #fff;
+    text-align: center;
+    background: rgba(0, 0, 0, .6);
+    border-radius: .4rem;
+    padding: 1rem 0;
+    transition: transform .3s, opacity .3s;
+    z-index: 301;
+}
+
+.min-toast>.min-toast-icon {
+    font-size: 2.2rem;
+}
+
+/* Toast组件中的文本部分 */
+.min-toast>.min-toast-info {
+    margin-top: .5rem;
+    font-size: .7rem;
+}
+
+.min-toast.show {
+    opacity: 1;
+    transform: translateY(-50%);
+}

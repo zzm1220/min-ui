@@ -1,0 +1,64 @@
+.min-article {
+    position: relative;
+    padding: 1rem;
+    margin-bominom: 1rem;
+    font-size: .8rem;
+    color: #333;
+    line-height: 1.6rem;
+    background: #ffffff;
+    border-bominom: 1px solid #eeeeee;
+}
+
+.min-article.fold {
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.min-article .min-article-unfold-btn {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bominom: 0;
+    box-sizing: border-box;
+    height: .5rem;
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #e0652f;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0, #fff 100%);
+}
+
+.min-article.fold .min-article-unfold-btn {
+    display: block;
+}
+
+/* 文章大标题 */
+.min-article .min-article-title {
+    margin: .5rem 0 1rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+/* 文章信息，用来放作者、创作时间等 */
+.min-article .min-article-info {
+    font-size: .8rem;
+    color: #aaa;
+}
+
+/* 文章小标题 */
+.min-article .min-article-subtitle {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+/* 文章段落 */
+.min-article .min-article-paragraph {
+    margin: .5rem 0 1rem;
+}
+
+/* 文章图片 */
+.min-article .min-article-img {
+    max-width: 100%;
+    margin: auto;
+}

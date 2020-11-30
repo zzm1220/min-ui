@@ -2,7 +2,7 @@
  * @Author: zhimin
  * @Date: 2020-11-30 14:47:34
  * @LastEditors: zhimin
- * @LastEditTime: 2020-11-30 14:47:55
+ * @LastEditTime: 2020-11-30 16:11:31
  * @FilePath: \min-ui\demo\toast.html
 -->
 <!DOCTYPE html>
@@ -16,7 +16,39 @@
 </head>
 
 <body>
-
+    <div class="min-content">
+        <h1 class="min-panel-title">toast提示框</h1>
+        <div class="min-panel-body">
+            <a class="min-btn btn-primary" id="js-show-toast-loading">加载中提示</a>
+            <a class="min-btn btn-primary" id="js-show-toast-success">成功提示</a>
+        </div>
+    </div>
+    <div class="min-toast" id="js-toast-loading">
+        <i class="fa fa-spinner fa-spin min-toast-icon"></i>
+        <p class="min-toast-info">操作进行中</p>
+    </div>
+    <div class="min-toast" id="js-toast-success">
+        <i class="fa fa-check min-toast-icon"></i>
+        <p class="min-toast-info">操作成功</p>
+    </div>
+    <script>
+        window.onload = () => {
+            document.querySelector('#js-show-toast-loading').onclick = e => {
+                let toastEle = document.querySelector('#js-toast-loading');
+                toastEle.classList.add("show");
+                setTimeout(() => {
+                    toastEle.classList.remove("show");
+                }, 2000)
+            }
+            document.querySelector('#js-show-toast-success').onclick = e => {
+                let toastEle = document.querySelector('#js-toast-success');
+                toastEle.classList.add("show");
+                setTimeout(() => {
+                    toastEle.classList.remove("show");
+                }, 2000)
+            }
+        }
+    </script>
 </body>
 
 </html>

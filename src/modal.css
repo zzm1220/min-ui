@@ -8,6 +8,38 @@
 
 .min-modal .min-modal-wrap {
     width: 75%;
+    max-width: 480px;
     position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    margin: auto;
+    background: #ffffff;
+    border-radius: .4rem;
+    z-index: 301;
+}
 
+.min-modal .min-modal-body {
+    padding: 1.8rem .8rem 1.5rem;
+    text-align: center;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    overflow: hidden;
+}
+
+.min-modal .min-modal-footer {
+    display: flex;
+    border-top: 1px solid #dddddd;
+}
+
+.min-modal .min-modal-footer .min-btn {
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    font-size: .8rem;
+}
+
+.min-modal .min-modal-footer .min-btn+.min-btn {
+    border-left: 1px solid #dddddd;
 }

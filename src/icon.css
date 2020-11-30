@@ -1,5 +1,25 @@
 @import "https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
 .fa {
     display: inline-block;
     text-align: center;
+}
+
+/* 垂直方向上下振动 */
+.fa-vibrate-y {
+    animation: fa-vibrate-y 2s ease-in infinite;
+}
+
+@keyframes fa-vibrate-y {
+    0% {
+        trnaform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(10%);
+    }
+
+    100% {
+        transform: translateY(-10%);
+    }
 }

@@ -2,7 +2,7 @@
  * @Author: zhimin
  * @Date: 2020-11-25 10:26:54
  * @LastEditors: zhimin
- * @LastEditTime: 2020-11-27 16:09:01
+ * @LastEditTime: 2020-11-30 14:48:21
  * @FilePath: \min-ui\src\min-ui.css
  */
 /* css reset */
@@ -21,3 +21,5 @@
 @import "./grid.css";
 @import "./menu.css";
 @import "./modal.css";
+@import "./loading.css";
+@import "./toast.css";

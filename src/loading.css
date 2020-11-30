@@ -1,0 +1,42 @@
+.min-loading {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.min-loading>.min-loading-icon {
+    font-size: 4.5rem;
+    color: rgba(0, 0, 0, .05);
+}
+
+.min-loading>.min-loading-info {
+    display: block;
+    margin-top: .6rem;
+    font-size: .8rem;
+    color: #cccccc;
+}
+
+.min-loading-inline {
+    position: relative;
+    box-sizing: border-box;
+    width: 12.5rem;
+    height: 1rem;
+    margin: 1.5rem auto 1rem;
+    text-align: center;
+    color: #999999;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.min-loading-inline>.min-loading-info {
+    display: inline-block;
+    position: relative;
+    top: -.7rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .7rem;
+    padding: 0 .5rem;
+    background: #ffffff;
+}
+
+.min-loading-inline>.min-loading-info>.min-loading-icon {
+    color: rgba(0, 0, 0, .2)
+}

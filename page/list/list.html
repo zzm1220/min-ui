@@ -1,0 +1,126 @@
+<!--
+ * @Author: zhimin
+ * @Date: 2020-12-01 14:52:34
+ * @LastEditors: zhimin
+ * @LastEditTime: 2020-12-01 15:09:32
+ * @FilePath: \min-ui\page\list\list.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../dist/min-ui.css">
+    <link rel="stylesheet" href="./list.css">
+    <title>list</title>
+</head>
+
+<body class="page-list">
+    <div class="min-navbar">
+        <a class="navbar-item active">
+            <i class="fa fa-home icon"></i>
+            <span class="name">首页</span>
+        </a>
+        <a class="navbar-item">
+            <i class="fa fa-search icon"></i>
+            <span class="name">发现</span>
+        </a>
+        <a class="navbar-item">
+            <i class="fa fa-user-o icon"></i>
+            <span class="name">我的</span>
+        </a>
+    </div>
+    <div class="min-content">
+        <!-- 带suggest的搜索框 -->
+        <div class="min-search">
+            <form action="#" class="min-search-form">
+                <div class="min-search-input-wrap">
+                    <i class="fa fa-search min-search-icon"></i>
+                    <input type="text" class="min-search-input" placeholder="搜索" autocomplete="off" autocomplete="off"
+                        required>
+                    <i class="fa fa-close min-search-clear"></i>
+                </div>
+                <span class="min-search-cancel">取消</span>
+            </form>
+            <!-- 搜索建议 -->
+            <ul class="min-search-suggest">
+                <li class="min-suggest-item">手机</li>
+                <li class="min-suggest-item">iPhone XS Max</li>
+                <li class="min-suggest-item">华为P30</li>
+                <li class="min-suggest-item">小米 MIX3</li>
+                <li class="min-suggest-item">诺基亚1110</li>
+            </ul>
+        </div>
+        <div class="sort-wrap">
+            <a href="" class="min-btn sort-btn active">
+                收藏次数
+                <!-- 没有排序时使用的图标 -->
+                <!-- <i class="fa fa-sort"></i> -->
+                <!-- 升序排列时使用的图标 -->
+                <!-- <i class="fa fa-sort-asc"></i> -->
+                <!-- 降序排列时使用的图标 -->
+                <i class="fa fa-sort-desc"></i>
+            </a>
+            <a href="" class="min-btn sort-btn">
+                发布时间
+                <i class="fa fa-sort"></i>
+            </a>
+        </div>
+        <!-- 列表内容 -->
+        <div class="min-panel-body no-padding">
+            <div class="min-loading-inline">
+                <span class="min-loading-info">
+                    <i class="fa fa-circle-o-notch fa-spin min-loading-icon"></i>
+                    用力加载中
+                </span>
+            </div>
+            <!-- 文章列表 -->
+            <div class="min-list">
+                <a href="./article.html" class="min-list-item">
+                    <div class="item-img-wrap">
+                        <img class="item-img" src="../img/list-img.jpg" alt="旅行必不可少">
+                    </div>
+                    <div class="item-content-wrap">
+                        <h1 class="item-title">大美新疆 | 玩遍这片大好山河，这些装备必不可少</h1>
+                        <p class="item-desc">发布时间：2019-8-18</p>
+                        <p class="item-desc">阅读1923次 | 收藏398次</p>
+                    </div>
+                </a>
+                <a href="./article.html" class="min-list-item">
+                    <div class="item-img-wrap">
+                        <img class="item-img" src="../img/list-img.jpg" alt="旅行必不可少">
+                    </div>
+                    <div class="item-content-wrap">
+                        <h1 class="item-title">大美新疆 | 玩遍这片大好山河，这些装备必不可少</h1>
+                        <p class="item-desc">发布时间：2019-8-18</p>
+                        <p class="item-desc">阅读1923次 | 收藏398次</p>
+                    </div>
+                </a>
+                <a href="./article.html" class="min-list-item">
+                    <div class="item-img-wrap">
+                        <img class="item-img" src="../img/list-img.jpg" alt="旅行必不可少">
+                    </div>
+                    <div class="item-content-wrap">
+                        <h1 class="item-title">大美新疆 | 玩遍这片大好山河，这些装备必不可少</h1>
+                        <p class="item-desc">发布时间：2019-8-18</p>
+                        <p class="item-desc">阅读1923次 | 收藏398次</p>
+                    </div>
+                </a>
+            </div>
+            <div class="min-loading-inline">
+                <span class="min-loading-info">
+                    上拉加载更多
+                    <i class="fa fa-long-arrow-up fa-vibrate-y min-loading-icon"></i>
+                </span>
+            </div>
+            <div class="min-loading-inline">
+                <span class="min-loading-info">
+                    我可是有底线的
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -13,6 +13,7 @@
     left: 0;
     right: 0;
     overflow-y: auto;
+    z-index: 110;
 }
 
 .min-header~.min-content .min-search.on-focus {

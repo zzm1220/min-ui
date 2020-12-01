@@ -1,0 +1,15 @@
+.page-article .min-article-info .like {
+    float: right;
+}
+
+.page-article .min-article-info .like.active {
+    color: #09bb07;
+}
+
+.page-article .min-article-info .like:not(.active) .like-icon {
+    display: none;
+}
+
+.page-article .min-article-info .like.active .dislike-icon {
+    display: none;
+}

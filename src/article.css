@@ -59,6 +59,7 @@
 
 /* 文章图片 */
 .min-article .min-article-img {
+    display: block;
     max-width: 100%;
     margin: auto;
 }

@@ -24,6 +24,12 @@
     font-weight: normal;
 }
 
+.min-content>.min-panel-title>.min-panel-link {
+    float: right;
+    margin-right: 1rem;
+    color: #aaaaaa;
+}
+
 .min-content>.min-panel-body {
     position: relative;
     margin-bottom: .6rem;

@@ -15,6 +15,18 @@
     background: #fff;
 }
 
+/* grid内容区 */
+.min-grid>.min-grid-item>.min-grid-icon {
+    font-size: 1.5rem;
+    color: #aaa;
+    margin-bottom: .5rem;
+}
+
+.min-grid>.min-grid-item>.min-grid-label {
+    font-size: .6rem;
+    color: #333;
+}
+
 .min-grid .min-grid-item:nth-child(3n) {
     border-right: none;
 }

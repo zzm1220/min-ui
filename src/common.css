@@ -1,34 +1,40 @@
 /* 基本尺寸，屏幕宽带在340px-410px */
 html {
     font-size: 20px;
+    height: 100%;
 }
+
 /* 屏幕宽度小于340px */
 @media all and (max-width: 340px) {
     html {
         font-size: 18px;
     }
 }
+
 /* 屏幕宽带大于410px */
 @media all and (min-width: 410px) {
-     html {
+    html {
         font-size: 22px;
     }
 }
+
 /* body默认样式 */
 body {
     max-width: 640px;
+    height: 100%;
     margin: 0 auto;
     background: #f8f8f8;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
+
 /* 页面蒙版 */
-.min-mask{
+.min-mask {
     position: fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background: rgba(0,0,0,.5);
-    z-index:300;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 300;
 }

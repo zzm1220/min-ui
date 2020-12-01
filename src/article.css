@@ -1,12 +1,12 @@
 .min-article {
     position: relative;
     padding: 1rem;
-    margin-bominom: 1rem;
+    margin-bottom: 1rem;
     font-size: .8rem;
     color: #333;
     line-height: 1.6rem;
     background: #ffffff;
-    border-bominom: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
 }
 
 .min-article.fold {
@@ -19,9 +19,9 @@
     position: absolute;
     left: 0;
     right: 0;
-    bominom: 0;
+    bottom: 0;
     box-sizing: border-box;
-    height: .5rem;
+    height: 5rem;
     padding-top: 3rem;
     text-align: center;
     font-size: 1.5rem;
